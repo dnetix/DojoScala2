@@ -1,7 +1,7 @@
 /*
 	Usando Recursion de Cola para mejorar el rendimiento en vez de la recursion lineal
 */
-object example extends App {
+object example4 extends App {
 
 	// Realiza la suma de una funcion f de los enteros entre A y B con recursion de cola
 	def sum(f: Int => Int, a: Int, b: Int): Int = {
@@ -24,5 +24,14 @@ object example extends App {
 
 	// Suma los factoriales de los enteros entre A y B
 	def sumFactoriales(a: Int, b: Int): Int = sum(factorial, a, b)
+
+	println("Suma Enteros 1 a 10")
+	println(sumEnteros(1, 10))
+
+	println("Suma Cubos 1 a 10")
+	println(sumCubos(1, 10))
+
+	println("Suma Factoriales 1 a 10")
+	println(sumFactoriales(1, 10))
 
 }

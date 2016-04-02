@@ -1,7 +1,7 @@
 /*
 	Currying or returning functions special syntax in scala
 */
-object example extends App {
+object example6 extends App {
 
 	// Retorna una funcion que realiza la operacion entre los enteros de A y B
 	def sum(f: Int => Int)(a: Int, b: Int): Int = {
@@ -16,13 +16,13 @@ object example extends App {
 	// De esta manera se evita la definicion de las funciones especificas y son usadas como
 
 	println("Suma Enteros 1 a 10")
-	sum(x => x)(1, 10)
+	println(sum(x => x)(1, 10))
 
 	println("Suma Cubos 1 a 10")
-	sum(x => x * x * x)(1, 10)
+	println(sum(x => x * x * x)(1, 10))
 
 	println("Suma Factoriales 1 a 10")
-	sum(factorial)(1, 10)
+	println(sum(factorial)(1, 10))
 
 
 }

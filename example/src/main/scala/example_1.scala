@@ -1,7 +1,7 @@
 /*
 	Ejemplo Básico
 */
-object example extends App {
+object example1 extends App {
 
 	// Eleva al cubo el entero enviado
 	def alCubo(x: Int) : Int = {
@@ -27,5 +27,14 @@ object example extends App {
 	def sumFactoriales(a: Int, b: Int): Int = {
 		if(a > b) 0 else factorial(a) + sumFactoriales(a + 1, b)
 	}
+
+	println("Suma Enteros 1 a 10")
+	println(sumEnteros(1, 10))
+
+	println("Suma Cubos 1 a 10")
+	println(sumCubos(1, 10))
+
+	println("Suma Factoriales 1 a 10")
+	println(sumFactoriales(1, 10))
 
 }
