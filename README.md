@@ -26,6 +26,12 @@ chmod a+x activator/activator
 
 [Guía de instalación de Play Framework](https://www.playframework.com/documentation/1.0/install)
 
+
+### Curso en Coursera Gratis CON CERTIFICACIÓN!
+
+Muy buen curso, en ingles, para aprender Scala
+[Principios de Programación Funcional en Scala](https://www.coursera.org/course/progfun)
+
 ### Ejercicios practicos para aprender Scala
 
 [Scala Exercises](http://scala-exercises.47deg.com/index.html)
