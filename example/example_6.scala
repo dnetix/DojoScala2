@@ -15,8 +15,14 @@ object example extends App {
 
 	// De esta manera se evita la definicion de las funciones especificas y son usadas como
 
-	// sum(x => x * x * x)(1, 10)
-	// sum(factorial)(1, 10)
+	println("Suma Enteros 1 a 10")
+	sum(x => x)(1, 10)
+
+	println("Suma Cubos 1 a 10")
+	sum(x => x * x * x)(1, 10)
+
+	println("Suma Factoriales 1 a 10")
+	sum(factorial)(1, 10)
 
 
 }
