@@ -21,3 +21,8 @@ chmod a+x activator/activator
 ```
 
 [Guia completa en este link](https://gist.github.com/patarkf/ab2c976b6f89edf90f63)
+
+#### Instalación de Play Framework
+
+[Guía de instalación de Play Framework](https://www.playframework.com/documentation/1.0/install)
+
